@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600&family=Raleway:wght@200;500&display=swap');
+
+/*-------navbar-------*/
+.banner{
+    --opacidad-negro: 0.3;
+    background-image: linear-gradient(rgba(0, 0, 0, var(--opacidad-negro)), rgba(0, 0, 0, var(--opacidad-negro))), url("../img/Fondo.jpg");
+    background-position: center;
+    background-size: cover;
+    height:42rem;
+}
+h1{
+    font-family: 'Raleway', sans-serif; 
+}
+.p{
+    font-family: 'Exo 2', sans-serif;
+}
+.prueba{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    color: #ffffff;
+    line-height: 1.6;
+    text-align: justify;
+    background: rgb(32,28,28);
+    background: linear-gradient(90deg, rgba(32,28,28,1) 2%, rgba(112,12,12,1) 49%, rgba(2,24,88,1) 97%);
+}
+.navbar-brand{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.navbar-brand img{
+    width: 5rem;
+    margin-right: 2rem;
+}
+
+.navbar-nav{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.2rem;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: #ffffff;
+}
+
+.nav-link:hover{
+    color: #fc0505;
+}
+
+.navbar-collapse{
+    color:#fc0505 ;
+}
+/*-------/navbar-------*/
+/*-------jumbotron-------*/
+.jumbotron{
+    position: absolute;
+    top: 30%;
+    left: 4rem;
+    color: #ffffff;
+}
+
+/*-------/jumbotron-------*/
+
+/* Estilos para dispositivos móviles pequeños (hasta 480px) */
+@media only screen and (max-width: 480px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+/* Estilos para dispositivos móviles medianos (481px - 767px) */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+/* Estilos para dispositivos móviles más grandes (768px - 991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
